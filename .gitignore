@@ -26,7 +26,8 @@ $RECYCLE.BIN/
 .LSOverride
 
 # Icon must ends with two \r.
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -34,3 +35,20 @@ Icon
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
+
+# Composer files
+composer.phar
+vendor/
+
+# Local configs
+config/autoload/*local.php
+
+# Binary gettext files
+*.po
+
+# Data
+log/
+logs/
+cache/
+temp/
+tmp/
